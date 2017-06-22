@@ -1,4 +1,4 @@
-#Install popular PHP dev tools
+# Install popular PHP dev tools
 
 #install phpcs (<https://github.com/squizlabs/PHP_CodeSniffer>) using composer
 
