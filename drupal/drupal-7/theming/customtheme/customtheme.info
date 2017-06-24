@@ -1,0 +1,11 @@
+name = Name of the custom theme
+description = A short description about the custom theme. For more details visit https://www.drupal.org/docs/7/theming/writing-theme-info-files
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = dist/css/style.css
+
+; Information added by Drupal.org packaging script on 2017-06-07
+version = "7.55+1-dev"
+project = "drupal"
+datestamp = "1496873728"
