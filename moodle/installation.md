@@ -30,3 +30,5 @@
 
    #Visit online installation 
     visit the url: http://YOUR_SERVER_IP/moodle  e.g. http://local.testing.com/moodle
+    -- ensure apache user (www-data) has write permission to the moodle folder
+    -- Follow the onscreen instructions, the data directory referred to in moodle data directory step above 
