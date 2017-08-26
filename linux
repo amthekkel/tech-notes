@@ -1,0 +1,14 @@
+#
+
+
+
+
+  - tar directory, -C is used to change to the parent directory and then the name of the folder/file to tar
+`tar -zcvf docroot.tar.gz -C ~/workspace/project_dir/ docroot`
+
+
+
+
+#tar
+  -- untar keeping the same ownsership and permissions
+`sudo tar -zxvpf docroot.tar.gz  --same-owner`
