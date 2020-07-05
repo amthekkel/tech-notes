@@ -1,0 +1,13 @@
+sudo curl -O https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz  # Download archive. Change the archive's name if you need another version of Go or another system architecture
+sudo tar -xvf go1.9.linux-amd64.tar.gz  # Extract archive
+sudo mv go /usr/local  # Move binaries to /usr/local
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile  # Update our bash profile so Go is in the PATH
+source ~/.profile  # Update profile
+
+
+
+
+
+https://juliensalinas.com/en/install-go-golang-1-9-on-ubuntu-17-10/
+
+https://gowebexamples.com/http-server/
