@@ -1,9 +1,14 @@
 # Laravel notes
 
+#### File permissions
+`sudo chown -R $USER:www-data storage bootstrap/cache`
+
+`chmod -R 775 storage`
+
+`chmod -R 775 bootstrap/cache`
 
 
-
-##Unit testing
+## Unit testing
 
 // Create a test in the Feature directory...
 php artisan make:test UserTest
